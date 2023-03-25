@@ -9,11 +9,8 @@
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/all.min.css">
 <link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
-<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script>
-<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script>
-<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script><script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
       <script src="https://www.google.com/recaptcha/api.js"></script>
       <style>
@@ -59,14 +56,12 @@
         color: #cd3a2f;
     }
       </style>
-  
-   </style>
-</head>
+   
    <body>
    
       <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
          <div class="d-flex flex-column flex-md-row align-items-center container">            
-           <a href="index.php" class="d-flex align-items-center text-dark text-decoration-none">
+           <a href="./success.php" class="d-flex align-items-center text-dark text-decoration-none">
               <img class="img-fluid" src="./img/nro.png" alt="" width="36" height="36">
 <span class="fs-5">Ngọc Rồng demon</span>     
             </a>
@@ -74,30 +69,18 @@
               <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto" style="font-weight: 500">
 <a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/source.php">Tải về</a>
 <a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/history.php">Lịch sử</a>
-<a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Messenger</a>
-<a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Hỗ trợ</a>
+<a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://zalo.me/g/fvudzw630">Messenger</a>
+<a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://zalo.me/g/fvudzw630">Hỗ trợ</a>
 </nav>
-                        <nav class="my-2 my-md-0 mr-md-3">
-               <a class="btn btn-outline-primary" href="./login.php" style="font-weight: 500">Đăng nhập</a>
+                           <a class="btn btn-outline-primary" href="./profile.php">
 			   
-                           </nav>
+               <span>Your Account</span>
+               </a>	
+                           
          </div>
       </div>
    
 
-
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Ngọc Rồng Demon</title>
-<link rel="icon" href="assets/images/nro.png" type="image/png">
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/all.min.css">
-<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="../www.google.com/recaptcha/api.js" async="" defer=""></script>
 
 <style>
     .btn-primary {
@@ -176,68 +159,79 @@
     }
 </style>
 <div class="container py-3">
-<header>
-</header><main>
-<form class="form-signin" method="POST">
-<div class="text-center mb-2">
-<img src="./img/nro.png" alt="" width="57" height="57">
+<main>
+<section class="text-center container">
+<div class="row py-md-3">
+<div class="col-lg-6 col-md-8 mx-auto">
+<h2 class="fw-light">Ngọc Rồng Demon</h2>
+               <div "lead="" text-muted"="">mở thành viên để giao dịch + chát thế giới + chơi chẵn lẻ ( nạp xong ra npc backdor để mở) <a href="/nap-tien.php">Nhấn Vào Đây</a> (tỉ lệ nạp: 10,000 KCoin = 10,000 VND).</div>               </div>
 </div>
-  <h1 class="h3 mb-3 fw-normal text-center">Vui lòng đăng nhập</h1>
-<input type="hidden" name="_token" value="JEGpj39vMoqzUAPDoHWTY8Y4jJiy4t0mhPST9nds">
-                        <label class="sr-only">Tài khoản</label>
-            <input type="text" class="form-control" placeholder="Tài khoản" required="" name="username">
-            <label class="sr-only">Mật khẩu</label>
-            <input type="password" class="form-control" placeholder="Mật khẩu" required="" name="password">
-            <div class="checkbox mb-3">
-<label>
-<input type="checkbox" name="remember" value="forever"> Nhớ đăng nhập
-</label>
+</section>
+<div class="row g-4 py-4 row-cols-1 row-cols-md-4">
+<div class="col d-flex align-items-stretch">
+<div class="feature-box">
+<div class="text-dark">
+<i class="fas fa-coins feature-icon"></i>
 </div>
-<button class="btn btn-primary w-100" type="submit">Đăng nhập</button>
-<div class="text-center pt-2">
-Bạn chưa có tài khoản? <a href="./register.php">Đăng ký ngay</a>
+<div>
+<a href="nap-tien.php" class="feature-title">Nạp Coin</a>
+<p>Thanh toán hoàn toàn tự động, xử lý nhanh sau 1 - 5 phút.</p>
+<a href="nap-tien.php" class="btn btn-primary">
+Nạp ngay
+</a>
 </div>
-<div class="text-center pt-2">
-<a href="#">Quên mật khẩu</a>
 </div>
-</form>
-<style>
-        .form-signin {
-            width: 100%;
-            max-width: 400px;
-            padding: 15px;
-            margin: 0 auto;
-        }
-
-        .form-signin .checkbox {
-            font-weight: 400;
-        }
-
-        .form-signin .form-control {
-            position: relative;
-            box-sizing: border-box;
-            height: auto;
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        .form-signin .form-control:focus {
-            z-index: 2;
-        }
-
-        .form-signin input[type="password"] {
-            margin-bottom: 10px;
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-        }
-  </style>
-</main>
+</div>
+<div class="col d-flex align-items-stretch">
+<div class="feature-box">
+<div class="text-dark">
+<i class="fas fa-exchange-alt feature-icon"></i>
+</div>
+<div>
+<a href="huong-dan.php" class="feature-title">Nạp ngọc</a>
+<p>Thanh toán hoàn toàn tự động, xử lý ngay lập tức.</p>
+<a href="huong-dan.php" class="btn btn-primary">
+Nạp ngay
+</a>
+</div>
+</div>
+</div>
+<div class="col d-flex align-items-stretch">
+<div class="feature-box">
+<div class="text-dark">
+<i class="fas fa-exchange-alt feature-icon"></i>
+</div>
+<div>
+<a href="huong-dan.php" class="feature-title">Nạp vàng</a>
+<p>Thanh toán hoàn toàn tự động, xử lý ngay lập tức.</p>
+<a href="huong-dan.php" class="btn btn-primary">
+Nạp ngay
+</a>
+</div>
+</div>
+</div>
+<div class="col d-flex align-items-stretch">
+<div class="feature-box">
+<div class="text-dark">
+<i class="fas fa-exchange-alt feature-icon"></i>
+</div>
+<div>
+<a href="profile.php" class="feature-title">Chuyển map</a>
+<p>Chuyển map về làng Aru, Lưu ý out game trước khi chuyển.</p>
+<a href="profile.php" class="btn btn-primary">
+Chuyển ngay
+</a>
+</div>
+</div>
+</div>
+<div class="col d-flex align-items-stretch">
+</div></div></main>
 <script src="assets/js/jquery.form.min.js"></script>
 <script src="assets/js/clipboard.min.js"></script>
 <script src="assets/js/jquery.dataTables.min.js"></script>
 <script src="assets/js/dataTables.bootstrap5.min.js"></script>
-<script src="assets/js/appa368.js?_=1668687096"></script>
-		<footer class="pt-4 my-md-5 pt-md-5 border-top">
+<script src="assets/js/app3007.js?_=1668687090"></script>
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="text-center">
                 Trò chơi không có bản quyền chính thức, hãy cân nhắc kỹ trước khi tham gia.<br> Chơi quá 180 phút một ngày sẽ ảnh hưởng đến sức khỏe.
             </div>
@@ -254,9 +248,9 @@ Bạn chưa có tài khoản? <a href="./register.php">Đăng ký ngay</a>
 			</div>
 			<div class="modal-body">
 				<div class="list-group">
-					<a href="#" class="list-group-item list-group-item-action"><i class="fas fa-download mr-2"></i>Tải về phiên bản cho JAVA</a>
-					<a href="#" class="list-group-item list-group-item-action"><i class="fab fa-android mr-2"></i>Tải về phiên bản cho Android</a>
-					<a href="#" class="list-group-item list-group-item-action"><i class="fab fa-windows mr-2"></i>Tải về phiên bản cho PC</a>
+					<a href="#" class="list-group-item list-group-item-action" download=""><i class="fas fa-download mr-2"></i>Tải về phiên bản cho JAVA</a>
+					<a href="#" class="list-group-item list-group-item-action" download=""><i class="fab fa-android mr-2"></i>Tải về phiên bản cho Android</a>
+					<a href="#" class="list-group-item list-group-item-action" download=""><i class="fab fa-windows mr-2"></i>Tải về phiên bản cho PC</a>
 				</div>
 			</div>
 		</div>
@@ -269,7 +263,5 @@ Bạn chưa có tài khoản? <a href="./register.php">Đăng ký ngay</a>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
-
-
-
+<script src="https://kit.fontawesome.com/5e3be8b319.js" crossorigin="anonymous"></script>
 </body></html>

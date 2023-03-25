@@ -183,7 +183,7 @@
 <div>
 <a href="nap-tien.php" class="feature-title">Nạp Coin</a>
 <p>Thanh toán hoàn toàn tự động, xử lý nhanh sau 1 - 5 phút.</p>
-<a href="nap-tien.php" class="btn btn-primary">
+<a href="./login.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -195,9 +195,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="huong-dan.php" class="feature-title">Nạp ngọc</a>
+<a href="./login.php" class="feature-title">Nạp ngọc</a>
 <p>Thanh toán hoàn toàn tự động, xử lý ngay lập tức.</p>
-<a href="huong-dan.php" class="btn btn-primary">
+<a href="./login.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -209,9 +209,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="huong-dan.php" class="feature-title">Nạp vàng</a>
+<a href="./login.php" class="feature-title">Nạp vàng</a>
 <p>Thanh toán hoàn toàn tự động, xử lý ngay lập tức.</p>
-<a href="huong-dan.php" class="btn btn-primary">
+<a href="./login.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -223,9 +223,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="profile.php" class="feature-title">Chuyển map</a>
+<a href="./login.php" class="feature-title">Chuyển map</a>
 <p>Chuyển map về làng Aru, Lưu ý out game trước khi chuyển.</p>
-<a href="profile.php" class="btn btn-primary">
+<a href="./login.php" class="btn btn-primary">
 Chuyển ngay
 </a>
 </div>

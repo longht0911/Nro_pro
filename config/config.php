@@ -1,25 +1,15 @@
 <?php
-require_once 'database.php';
-class DB{
-    public $conn;
-    function __construct()
-    {
-        $this->connect();
-    }
-    function connect()
-    {
-        $this->conn=new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-        if($this->conn->connect_error)
-        {
-            die("Error".$this->conn->connect_error);
-        }
-        else
-        {
-            echo "Connection Successful";
-        }
-    }
+define('DB_SERVER','localhost');
+define('DB_USER','root');
+define('DB_PASS' ,'');
+define('DB_NAME', 'nro_god_v4');
+$con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
 
-}
-
+// Check connection
+if (mysqli_connect_errno())
+{
+echo "Failed to connect to MySQL: " . mysqli_connect_error();
+ }
 
 ?>
+

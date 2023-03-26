@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
-	  <link rel="shortcut icon" type="image/png" href="./img/nro.png">
+	  <link rel="shortcut icon" type="image/png" href="../img/nro.png">
       <meta name="author" content="">
       <title>Nro demon</title>
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
@@ -62,7 +62,7 @@
       <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
          <div class="d-flex flex-column flex-md-row align-items-center container">            
            <a href="./success.php" class="d-flex align-items-center text-dark text-decoration-none">
-              <img class="img-fluid" src="./img/nro.png" alt="" width="36" height="36">
+              <img class="img-fluid" src="../img/nro.png" alt="" width="36" height="36">
 <span class="fs-5">Ngọc Rồng demon</span>     
             </a>
             

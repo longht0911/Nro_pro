@@ -77,7 +77,7 @@
 <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Hỗ trợ</a>
 </nav>
                         <nav class="my-2 my-md-0 mr-md-3">
-               <a class="btn btn-outline-primary" href="./login.php" style="font-weight: 500">Đăng nhập</a>
+               <a class="btn btn-outline-primary" href="./compo/login.php" style="font-weight: 500">Đăng nhập</a>
 			   
                            </nav>
          </div>
@@ -169,8 +169,8 @@
 Đăng ký tài khoản nhận quà tân thủ và nhiều phần thưởng hấp dẫn.
 </p>
             <nav class="my-2 my-md-0 mr-md-3">
-               <a class="btn btn-outline-primary" href="./login.php" style="font-weight: 500">Đăng nhập</a>
-              <a class="btn btn-outline-primary" href="./register.php" style="font-weight: 500">Đăng ký</a>
+               <a class="btn btn-outline-primary" href="./compo/login.php" style="font-weight: 500">Đăng nhập</a>
+              <a class="btn btn-outline-primary" href="./compo/register.php" style="font-weight: 500">Đăng ký</a>
                </nav></div>
 </div>
 </section>
@@ -181,9 +181,9 @@
 <i class="fas fa-coins feature-icon"></i>
 </div>
 <div>
-<a href="nap-tien.php" class="feature-title">Nạp Coin</a>
+<a href="./compo/login.php" class="feature-title">Nạp Coin</a>
 <p>Thanh toán hoàn toàn tự động, xử lý nhanh sau 1 - 5 phút.</p>
-<a href="./login.php" class="btn btn-primary">
+<a href="./compo/login.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -195,9 +195,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="./login.php" class="feature-title">Nạp ngọc</a>
+<a href="./compo/guide.php" class="feature-title">Nạp ngọc</a>
 <p>Thanh toán hoàn toàn tự động, xử lý ngay lập tức.</p>
-<a href="./login.php" class="btn btn-primary">
+<a href="./compo/guide.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -209,9 +209,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="./login.php" class="feature-title">Nạp vàng</a>
+<a href="./compo/guide.php" class="feature-title">Nạp vàng</a>
 <p>Thanh toán hoàn toàn tự động, xử lý ngay lập tức.</p>
-<a href="./login.php" class="btn btn-primary">
+<a href="./compo/guide.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -223,9 +223,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="./login.php" class="feature-title">Chuyển map</a>
+<a href="./compo/login.php" class="feature-title">Chuyển map</a>
 <p>Chuyển map về làng Aru, Lưu ý out game trước khi chuyển.</p>
-<a href="./login.php" class="btn btn-primary">
+<a href="./compo/login.php" class="btn btn-primary">
 Chuyển ngay
 </a>
 </div>

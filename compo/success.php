@@ -6,11 +6,11 @@
 	  <link rel="shortcut icon" type="image/png" href="./img/nro.png">
       <meta name="author" content="">
       <title>Nro demon</title>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/all.min.css">
-<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
-<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script><script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/dataTables.bootstrap5.min.css">
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script><script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 
       <script src="https://www.google.com/recaptcha/api.js"></script>
       <style>
@@ -69,8 +69,8 @@
               <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto" style="font-weight: 500">
 <a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/source.php">Tải về</a>
 <a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/history.php">Lịch sử</a>
-<a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://zalo.me/g/fvudzw630">Messenger</a>
-<a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://zalo.me/g/fvudzw630">Hỗ trợ</a>
+<a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Messenger</a>
+<a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Hỗ trợ</a>
 </nav>
                            <a class="btn btn-outline-primary" href="./profile.php">
 			   
@@ -226,11 +226,11 @@ Chuyển ngay
 </div>
 <div class="col d-flex align-items-stretch">
 </div></div></main>
-<script src="assets/js/jquery.form.min.js"></script>
-<script src="assets/js/clipboard.min.js"></script>
-<script src="assets/js/jquery.dataTables.min.js"></script>
-<script src="assets/js/dataTables.bootstrap5.min.js"></script>
-<script src="assets/js/app3007.js?_=1668687090"></script>
+<script src="../assets/js/jquery.form.min.js"></script>
+<script src="../assets/js/clipboard.min.js"></script>
+<script src="../assets/js/jquery.dataTables.min.js"></script>
+<script src="../assets/js/dataTables.bootstrap5.min.js"></script>
+<script src="../assets/js/app3007.js?_=1668687090"></script>
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="text-center">
                 Trò chơi không có bản quyền chính thức, hãy cân nhắc kỹ trước khi tham gia.<br> Chơi quá 180 phút một ngày sẽ ảnh hưởng đến sức khỏe.

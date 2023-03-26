@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('./config/config.php');
+require_once('../config/config.php');
 if(isset($_POST['login']))
 {
 $password=$_POST['password'];
@@ -10,7 +10,7 @@ $ret= mysqli_query($con,"SELECT * FROM account WHERE username='$username' and pa
 $num=mysqli_fetch_array($ret);
 if($num>0)
 {
-$extra="welcome.php";
+
 $_SESSION['login']=$_POST['username'];
 $_SESSION['id']=$num['id'];
 $host=$_SERVER['HTTP_HOST'];
@@ -34,16 +34,16 @@ exit();
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
-	  <link rel="shortcut icon" type="image/png" href="./img/nro.png">
+	  <link rel="shortcut icon" type="image/png" href="../img/nro.png">
       <meta name="author" content="">
       <title>Nro demon</title>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/all.min.css">
-<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/dataTables.bootstrap5.min.css">
 <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script>
 <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
       <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -97,14 +97,14 @@ exit();
    
       <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
          <div class="d-flex flex-column flex-md-row align-items-center container">            
-           <a href="index.php" class="d-flex align-items-center text-dark text-decoration-none">
-              <img class="img-fluid" src="./img/nro.png" alt="" width="36" height="36">
+           <a href="../index.php" class="d-flex align-items-center text-dark text-decoration-none">
+              <img class="img-fluid" src="../img/nro.png" alt="" width="36" height="36">
 <span class="fs-5">Ngọc Rồng demon</span>     
             </a>
             
               <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto" style="font-weight: 500">
-<a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/source.php">Tải về</a>
-<a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/history.php">Lịch sử</a>
+<a class="me-3 py-2 text-dark text-decoration-none" href="../choosen/source.php">Tải về</a>
+<a class="me-3 py-2 text-dark text-decoration-none" href="../choosen/history.php">Lịch sử</a>
 <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Messenger</a>
 <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Hỗ trợ</a>
 </nav>
@@ -201,7 +201,7 @@ exit();
 </header><main>
 <form class="form-signin" method="POST">
 <div class="text-center mb-2">
-<img src="./img/nro.png" alt="" width="57" height="57">
+<img src="../img/nro.png" alt="" width="57" height="57">
 </div>
   <h1 class="h3 mb-3 fw-normal text-center">Vui lòng đăng nhập</h1>
 <input type="hidden" name="_token" value="JEGpj39vMoqzUAPDoHWTY8Y4jJiy4t0mhPST9nds">
@@ -253,11 +253,11 @@ Bạn chưa có tài khoản? <a href="./register.php">Đăng ký ngay</a>
         }
   </style>
 </main>
-<script src="assets/js/jquery.form.min.js"></script>
-<script src="assets/js/clipboard.min.js"></script>
-<script src="assets/js/jquery.dataTables.min.js"></script>
-<script src="assets/js/dataTables.bootstrap5.min.js"></script>
-<script src="assets/js/appa368.js?_=1668687096"></script>
+<script src="../assets/js/jquery.form.min.js"></script>
+<script src="../assets/js/clipboard.min.js"></script>
+<script src="../assets/js/jquery.dataTables.min.js"></script>
+<script src="../assets/js/dataTables.bootstrap5.min.js"></script>
+<script src="../assets/js/appa368.js?_=1668687096"></script>
 		<footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="text-center">
                 Trò chơi không có bản quyền chính thức, hãy cân nhắc kỹ trước khi tham gia.<br> Chơi quá 180 phút một ngày sẽ ảnh hưởng đến sức khỏe.

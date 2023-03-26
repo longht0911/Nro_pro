@@ -1,18 +1,45 @@
+<?php
+session_start();
+require_once('../config/config.php');
+if(isset($_POST['signup']))
+{
+	$username=$_POST['username'];
+	$password=$_POST['password'];
+	$enc_password=$password;
+$sql=mysqli_query($con,"select id from account where username='$username'");
+
+if(!$sql){
+    die("Query failed: " . mysqli_error($con));
+}
+$row=mysqli_num_rows($sql);
+if($row>0)
+{
+	echo "<script>alert('Account id already exist with another account. Please try with other account id');</script>";
+} else{
+	$msg=mysqli_query($con,"insert into account(username,password) values('$username','$enc_password')");
+
+if($msg)
+{
+	echo "<script>alert('Register successfully');</script>";
+}
+}
+}
+?>
 <!DOCTYPE html>
 <html lang="en"><head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
-	  <link rel="shortcut icon" type="image/png" href="./img/nro.png">
+	  <link rel="shortcut icon" type="image/png" href="../img/nro.png">
       <meta name="author" content="">
       <title>Nro demon</title>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/all.min.css">
-<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/dataTables.bootstrap5.min.css">
 <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script>
 <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 
       <script src="https://www.google.com/recaptcha/api.js"></script>
       <style>
@@ -63,14 +90,14 @@
    
       <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
          <div class="d-flex flex-column flex-md-row align-items-center container">            
-           <a href="./index.php" class="d-flex align-items-center text-dark text-decoration-none">
-              <img class="img-fluid" src="./img/nro.png" alt="" width="36" height="36">
+           <a href="../index.php" class="d-flex align-items-center text-dark text-decoration-none">
+              <img class="img-fluid" src="../img/nro.png" alt="" width="36" height="36">
 <span class="fs-5">Ngọc Rồng demon</span>     
             </a>
             
               <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto" style="font-weight: 500">
-<a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/source.php">Tải về</a>
-<a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/history.php">Lịch sử</a>
+<a class="me-3 py-2 text-dark text-decoration-none" href="../choosen/source.php">Tải về</a>
+<a class="me-3 py-2 text-dark text-decoration-none" href="../choosen/history.php">Lịch sử</a>
 <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Messenger</a> 
 <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Hỗ trợ</a>
 </nav>
@@ -84,17 +111,6 @@
 
 
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Ngọc Rồng Demon</title>
-<link rel="icon" href="assets/images/nro.png" type="image/png">
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/all.min.css">
-<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="../www.google.com/recaptcha/api.js" async="" defer=""></script>
 
 <style>
     .btn-primary {
@@ -191,7 +207,7 @@
                 <label>Nhập lại mật khẩu</label>
                 <input type="password" class="form-control" placeholder="Mật khẩu" required="" name="repassword">
             </div>
-<button class="btn btn-primary w-100" type="submit">Đăng ký</button>
+<button class="btn btn-primary w-100" type="submit" name="signup">Đăng ký</button>
 <div class="text-center pt-2">
 Bạn đã có tài khoản? <a href="./login.php">Đăng nhập ngay</a>
 </div>
@@ -212,11 +228,11 @@ Bạn đã có tài khoản? <a href="./login.php">Đăng nhập ngay</a>
             }
     </style>
 </main>
-<script src="assets/js/jquery.form.min.js"></script>
-<script src="assets/js/clipboard.min.js"></script>
-<script src="assets/js/jquery.dataTables.min.js"></script>
-<script src="assets/js/dataTables.bootstrap5.min.js"></script>
-<script src="assets/js/appa368.js?_=1668687096"></script>
+<script src="../assets/js/jquery.form.min.js"></script>
+<script src="../assets/js/clipboard.min.js"></script>
+<script src="../assets/js/jquery.dataTables.min.js"></script>
+<script src="../assets/js/dataTables.bootstrap5.min.js"></script>
+<script src="../assets/js/appa368.js?_=1668687096"></script>
 		<footer class="pt-4 my-md-5 pt-md-5 border-top">
             <div class="text-center">
                 Trò chơi không có bản quyền chính thức, hãy cân nhắc kỹ trước khi tham gia.<br> Chơi quá 180 phút một ngày sẽ ảnh hưởng đến sức khỏe.

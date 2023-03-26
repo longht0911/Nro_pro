@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="../assets/css/all.min.css">
 <link rel="stylesheet" href="../assets/css/dataTables.bootstrap5.min.css">
 <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vpEprwpCoBMgy-fvZET0Mz6L/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-SWplpoTGO9n0cCKQPyLeFxbEA+jhAKSUD53tZ7QyqoUGsraUbgCI8L1rCnfTPrS9"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/5e3be8b319.js" crossorigin="anonymous"></script>
 
       <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -75,7 +75,7 @@
 <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Hỗ trợ</a>
 </nav>
                         <nav class="my-2 my-md-0 mr-md-3">
-               <a class="btn btn-outline-primary" href="../login.php" style="font-weight: 500">Đăng nhập</a>
+               <a class="btn btn-outline-primary" href="../compo/login.php" style="font-weight: 500">Đăng nhập</a>
 			   
                            </nav>
          </div>
@@ -87,12 +87,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Ngọc Rồng DEMON</title>
-<link rel="icon" href="assets/images/nro.png" type="image/png">
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/all.min.css">
-<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+<link rel="icon" href="../assets/images/nro.png" type="image/png">
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/dataTables.bootstrap5.min.css">
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../www.google.com/recaptcha/api.js" async="" defer=""></script>
 
@@ -200,11 +200,11 @@
 </div>
 </div>
 </main>
-<script src="assets/js/jquery.form.min.js"></script>
-<script src="assets/js/clipboard.min.js"></script>
-<script src="assets/js/jquery.dataTables.min.js"></script>
-<script src="assets/js/dataTables.bootstrap5.min.js"></script>
-<script src="assets/js/appe015.js?_=1668687095"></script>
+<script src="../assets/js/jquery.form.min.js"></script>
+<script src="../assets/js/clipboard.min.js"></script>
+<script src="../assets/js/jquery.dataTables.min.js"></script>
+<script src="../assets/js/dataTables.bootstrap5.min.js"></script>
+<script src="../assets/js/appe015.js?_=1668687095"></script>
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
 <div class="text-center">
 Trò chơi không có bản quyền chính thức, hãy cân nhắc kỹ trước khi tham gia.<br>

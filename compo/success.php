@@ -164,7 +164,7 @@
 <div class="row py-md-3">
 <div class="col-lg-6 col-md-8 mx-auto">
 <h2 class="fw-light">Ngọc Rồng Demon</h2>
-               <div "lead="" text-muted"="">mở thành viên để giao dịch + chát thế giới + chơi chẵn lẻ ( nạp xong ra npc backdor để mở) <a href="/nap-tien.php">Nhấn Vào Đây</a> (tỉ lệ nạp: 10,000 KCoin = 10,000 VND).</div>               </div>
+               <div "lead="" text-muted"="">mở thành viên để giao dịch + chát thế giới + chơi chẵn lẻ ( nạp xong ra npc backdor để mở) <a href="./push.php">Nhấn Vào Đây</a> (tỉ lệ nạp: 10,000 KCoin = 10,000 VND).</div>               </div>
 </div>
 </section>
 <div class="row g-4 py-4 row-cols-1 row-cols-md-4">
@@ -174,9 +174,9 @@
 <i class="fas fa-coins feature-icon"></i>
 </div>
 <div>
-<a href="nap-tien.php" class="feature-title">Nạp Coin</a>
+<a href="./push.php" class="feature-title">Nạp Coin</a>
 <p>Thanh toán hoàn toàn tự động, xử lý nhanh sau 1 - 5 phút.</p>
-<a href="nap-tien.php" class="btn btn-primary">
+<a href="./push.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -188,9 +188,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="huong-dan.php" class="feature-title">Nạp ngọc</a>
+<a href="./guide.php" class="feature-title">Nạp ngọc</a>
 <p>Thanh toán hoàn toàn tự động, xử lý ngay lập tức.</p>
-<a href="huong-dan.php" class="btn btn-primary">
+<a href="./guide.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -202,9 +202,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="huong-dan.php" class="feature-title">Nạp vàng</a>
+<a href="./guide.php" class="feature-title">Nạp vàng</a>
 <p>Thanh toán hoàn toàn tự động, xử lý ngay lập tức.</p>
-<a href="huong-dan.php" class="btn btn-primary">
+<a href="./guide.php" class="btn btn-primary">
 Nạp ngay
 </a>
 </div>
@@ -216,9 +216,9 @@ Nạp ngay
 <i class="fas fa-exchange-alt feature-icon"></i>
 </div>
 <div>
-<a href="profile.php" class="feature-title">Chuyển map</a>
+<a href="./profile.php" class="feature-title">Chuyển map</a>
 <p>Chuyển map về làng Aru, Lưu ý out game trước khi chuyển.</p>
-<a href="profile.php" class="btn btn-primary">
+<a href="./profile.php" class="btn btn-primary">
 Chuyển ngay
 </a>
 </div>

@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (strlen($_SESSION['id']==0)) {
+  header('location:logout.php');
+  } else{
+  }
+	
+?>
 <!DOCTYPE html>
 <html lang="en"><head>
       <meta charset="utf-8">
@@ -170,7 +178,7 @@
     <a href="../choosen/history.php" class="list-group-item list-group-item-action ">
       <i class="fas fa-credit-card me-2"></i> Lịch sử nạp thẻ
     </a>
-   <a href="../index.php" class="list-group-item list-group-item-action ">
+   <a href="../compo/logout.php" class="list-group-item list-group-item-action ">
       <i class="fas fa-sign-out-alt me-2"></i> Đăng xuất
     </a>
 

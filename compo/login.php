@@ -104,7 +104,7 @@ exit();
             
               <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto" style="font-weight: 500">
 <a class="me-3 py-2 text-dark text-decoration-none" href="../choosen/source.php">Tải về</a>
-<a class="me-3 py-2 text-dark text-decoration-none" href="../choosen/history.php">Lịch sử</a>
+<a class="me-3 py-2 text-dark text-decoration-none" href="./choosen/history.php">Lịch sử</a>
 <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Messenger</a>
 <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.facebook.com/ng.huo.129">Hỗ trợ</a>
 </nav>
